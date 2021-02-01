@@ -1,11 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant-TW">
 <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159981065-4"></script>
+  <script>
+    setTimeout(redirect, 2000);
+    var redirected = false;
+
+    function redirect() {
+      if (!redirected) {
+        redirected = true;
+        location.href = 'https://lin.ee/P1izXln';
+      }
+    }
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-159981065-4');
+
+    gtag("event", "redirect", {
+            event_label: "add_line",
+            event_callback: redirect
+        });
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sapphire Clinic</title>
 </head>
 <body>
-
+  <div style="padding-top: calc(50vh - 50px)">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; display: block;" width="100px" height="100px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+      <g transform="translate(50,50)">
+        <g transform="scale(0.7)">
+          <circle cx="0" cy="0" r="50" fill="#8cd0e5"></circle>
+          <circle cx="0" cy="-28" r="15" fill="#376888">
+            <animateTransform attributeName="transform" type="rotate" dur="1s" repeatCount="indefinite" keyTimes="0;1" values="0 0 0;360 0 0"></animateTransform>
+          </circle>
+        </g>
+      </g>
+    </svg>
+  </div>
 </body>
-</html>

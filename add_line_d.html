@@ -9,7 +9,7 @@
     function redirect() {
       if (!redirected) {
         redirected = true;
-        location.href = 'line://oaMessage/@sapphire.clinic/?我想預約諮詢';
+        location.href = 'line://oaMessage/@sapphire.clinic/?我是迪卡人，我想了解隱痕式縫雙眼皮手術';
       }
     }
 
@@ -20,6 +20,7 @@
 
     gtag("event", "redirect", {
             event_category: "add_line",
+            event_label: "縫雙眼皮",
             event_callback: redirect
         });
   </script>
